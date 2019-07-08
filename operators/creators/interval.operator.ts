@@ -1,4 +1,5 @@
 import { Observable } from "../../Observable/Observable";
+
 import { IObserver } from "../../Observer/IObserver";
 
 export function interval(interval: number) {

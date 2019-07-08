@@ -23,7 +23,6 @@ export function Observer(observer: IHandlers): IObserver {
       }
     },
     unsubscribe: () => {
-      console.log("unsubscribe");
       unsubscribed = true;
       fullObserver._unsubscribe && fullObserver._unsubscribe();
     }
